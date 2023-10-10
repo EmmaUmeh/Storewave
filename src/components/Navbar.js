@@ -5,13 +5,13 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 
 const Navbar = () => {
 
-    const label = [
-        {path: '/', route: 'Home'},
-        {path: '/', route: 'Products'},
-        {path: '/', route: 'Categories'},
-        {path: '/', route: 'Pages'},
-        {path: '/', route: 'Contacts'},
-    ]
+    // const label = [
+    //     {path: '/', route: 'Home'},
+    //     {path: '/', route: 'Products'},
+    //     {path: '/', route: 'Categories'},
+    //     {path: '/', route: 'Pages'},
+    //     {path: '/', route: 'Contacts'},
+    // ]
     return (
         <>
             <div className="bg-[#20283f] w-100 p-5">
@@ -47,7 +47,7 @@ const Navbar = () => {
 
                 </div>
 
-                <div className="flex sm:hidden md:hidden space-x-6 align-items justify-center">
+                {/* <div className="flex sm:hidden md:hidden space-x-6 align-items justify-center">
                     {
                         label?.map( (labels, index) => {
                             
@@ -58,7 +58,7 @@ const Navbar = () => {
                             )
                         })
                     }
-                </div>
+                </div> */}
 
                 <div className="relative w-50 hidden sm:block md:block">
                         <input type="text" placeholder="Search..." className="mt-1 pt-5 pl-5 pb-5 pr-80 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-[30px] sm:text-sm focus:ring-1" />
