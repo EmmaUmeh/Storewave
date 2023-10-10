@@ -34,7 +34,7 @@ const Herobanner = () => {
         </div>
 
         {/* Image */}
-        <div className='pt-10 pb-20 w-[60%] sm:w-w-[100%] md:w-[100%] flex sm:flex-col md:flex-col mb-5 bg-[#fffbf8]'>
+        <div className='pt-10 pb-20 w-[60%] sm:w-[100%] md:w-[100%] flex sm:flex-col md:flex-col mb-5 bg-[#fffbf8]'>
           <div className='flex flex-col justify-center p-5'>
             <h5 className='text-2xl text-[#000] pb-3'>New arrival</h5>
             <h4 className='text-3xl text-[#000]'>2x1 in Basic Hoodies</h4>

@@ -35,11 +35,11 @@ const Navbar = () => {
                         <span className="flex "><BsBag className="lg:text-3xl text-3xl" color="white" /></span>
                         <span className="flex text-white hidden lg:block sm:hidden md:hidden"> Your Cart</span>
                         
-                        <div className="hidden sm:block md:block">
+                        {/* <div className="hidden sm:block md:block">
                             <button className="bg-[#0085ff] rounded-[50%] text-center text-white p-2">
                                 <HiOutlineMenuAlt4 size="35px" color="white" />
                             </button>
-                    </div>
+                    </div> */}
 
                     </div>
 
