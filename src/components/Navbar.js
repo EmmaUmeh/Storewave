@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import LogoImage from "../images/logo.svg";
 import { CiSearch } from 'react-icons/ci';
 import { BsBag } from 'react-icons/bs';
-import { HiOutlineMenuAlt4 } from 'react-icons/hi';
+
 import AddToCartModal from "./AddToCartModal";
 
 const Navbar = () => {
@@ -23,8 +23,8 @@ const Navbar = () => {
 
                     {/* Search Bar (You can optimize the search bar code) */}
                     <div className="relative w-50 sm:hidden md:hidden">
-                        <input type="text" placeholder="Search..." className="mt-1 pt-5 pl-5 pb-5 pr-80 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-[30px] sm:text-sm focus:ring-1" />
-                        <button className="absolute top-[10px] mr-2 right-0 bg-[#0085ff] rounded-[50%] p-2"><CiSearch size="30px" color="white" /></button>
+                        <input type="text" placeholder="Search for any product" className="mt-1 pt-5 pl-5 pb-5 pr-80 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-lg sm:text-sm focus:ring-1" />
+                        <button className="absolute top-5 mr-2 right-0 bg-[#0085ff] rounded-[50%] p-2"><CiSearch size="30px" color="white" /></button>
                     </div>
 
                     {/* Cart Icon */}
